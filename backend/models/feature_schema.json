@@ -1,0 +1,28 @@
+{
+  "model_features": [
+    "wcrime_2m",
+    "wcrime_3m",
+    "length_m",
+    "month_num",
+    "year",
+    "highway_norm"
+  ],
+  "crime_weights": {
+    "Violence and sexual offences": 3.0,
+    "Robbery": 2.8,
+    "Burglary": 2.2,
+    "Criminal damage and arson": 2.0,
+    "Possession of weapons": 2.4,
+    "Public order": 1.8,
+    "Drugs": 1.6,
+    "Vehicle crime": 1.4,
+    "Theft from the person": 1.5,
+    "Other theft": 1.2,
+    "Shoplifting": 1.1,
+    "Bicycle theft": 1.0,
+    "Other crime": 1.0,
+    "Anti-social behaviour": 0.7
+  },
+  "place": "Greater London, United Kingdom",
+  "network_type": "drive"
+}

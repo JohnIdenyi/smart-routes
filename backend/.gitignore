@@ -1,0 +1,12 @@
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+__pycache__/
+.venv/
+cache/
+data/greater_london_drive_projected.graphml
+data/greater_london_drive.graphml
+data/greater_london_walk_projected.graphml
+data/greater_london_walk.graphml
+data/features_road_month.csv
+data/risk_layer_latest_month.csv

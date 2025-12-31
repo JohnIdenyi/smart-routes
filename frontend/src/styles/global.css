@@ -1,0 +1,69 @@
+:root {
+  --bg: #0b1020;
+  --bg2: #070a14;
+  --text: rgba(255, 255, 255, 0.92);
+  --muted: rgba(255, 255, 255, 0.7);
+  --muted2: rgba(255, 255, 255, 0.55);
+  --line: rgba(255, 255, 255, 0.12);
+  --accent: #7c3aed; /* violet */
+  --accent2: #22c55e; /* green */
+  --danger: #ef4444; /* red */
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+  --radius: 18px;
+  --radius2: 26px;
+  --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--text);
+  background: radial-gradient(
+      1200px 800px at 70% 10%,
+      rgba(124, 58, 237, 0.25),
+      transparent 55%
+    ),
+    radial-gradient(
+      900px 600px at 20% 20%,
+      rgba(34, 197, 94, 0.18),
+      transparent 55%
+    ),
+    linear-gradient(180deg, var(--bg), var(--bg2));
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+}
+
+.route-preference {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.route-preference button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #111827;
+  background: #111827;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.route-preference button.active {
+  background: #fff;
+  color: #111827; /* dark */
+  border-color: #ddd;
+}
