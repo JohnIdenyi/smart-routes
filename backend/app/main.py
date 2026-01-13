@@ -15,6 +15,7 @@ import pandas as pd
 from app.database import Base, engine
 from app.auth.router import router as auth_router
 from app.auth.deps import get_current_user
+from app.routing_utils import in_greater_london, edge_cost
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
