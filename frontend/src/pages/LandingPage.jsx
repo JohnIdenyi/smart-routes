@@ -89,7 +89,7 @@ export default function LandingPage() {
         <aside className="heroRight">
           <div className="panelHead">
             <p className="panelTitle">What you get</p>
-            <span className="badge">Demo-ready</span>
+            {/* <span className="badge">Demo-ready</span> */}
           </div>
 
           <div className="panelBody">
@@ -104,7 +104,7 @@ export default function LandingPage() {
             <div className="card">
               <h3>Transparent trade-offs</h3>
               <p>
-                View distance, time, and average risk side-by-side — so you can
+                View distance, time, and average risk side-by-side so you can
                 pick what matters most.
               </p>
             </div>
